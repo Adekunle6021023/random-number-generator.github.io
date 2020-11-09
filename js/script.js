@@ -55,3 +55,6 @@ function generate () {
 
 var clicker = document.getElementById('clicker');
 clicker.addEventListener('click', generate, false);
+
+var play = function(){document.getElementById("audio").play()}
+
